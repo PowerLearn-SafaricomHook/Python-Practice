@@ -27,3 +27,9 @@ with more
 than 
 one line code."""
 print(new_str)
+
+# unicode string
+
+unicode_str = u"\u00dcnic\u00f6de"
+print(unicode_str)
+

@@ -14,3 +14,4 @@
 # example:
 
 # empty list
+my_list = []

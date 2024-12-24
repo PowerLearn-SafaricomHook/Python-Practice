@@ -23,6 +23,9 @@ my_list = [1, 2, 3]
 # list with mixed data types
 my_list = [1, "Hello", 3.4]
 
+print(my_list[0:2])
+print(my_list[1:])
+
 
 # nested list
 # nested list is a list within a list 
@@ -58,6 +61,8 @@ my_dict = {}
 
 # dictionary with integer keys
 my_dict = {1: 'apple', 2: 'ball'}
+
+
 
 # dictionary with mixed keys
 my_dict = {'name': 'John', 1: [2, 4, 3]}

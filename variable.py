@@ -7,4 +7,12 @@ website="Google.com"
 
 website="Yahoo.com"
 
-print(website)
+# print(website)
+
+# assigning multiplle tomultiple variables
+
+num1,num2,num3=5,3.2,"Hello"
+print(num1)
+print(num2)
+print(num3)
+

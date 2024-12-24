@@ -50,5 +50,6 @@ print(msg)
 print(char)
 print(multiline)
 print(unicode)
+print(raw)
 
 

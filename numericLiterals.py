@@ -18,7 +18,37 @@ float_2 = 1.5e2
 
 x = 3.14j
 
-print(a, b, c, d)
-print(float_1, float_2)
-print(x, x.imag, x.real)
+# print(a, b, c, d)
+# print(float_1, float_2)
+# print(x, x.imag, x.real)
+
+
+#String literals in python are surrounded by either single quotation marks, or double quotation marks.
+
+# 'hello' is the same as "hello".
+
+# You can display a string literal with the print() function:
+
+msg = "Python is fun"
+char = "C"
+
+# multiline string 
+# You can assign a multiline string to a variable by using three quotes:
+multiline = """This is a multiline string with more than one line code."""
+
+# unicode string
+# You can use unicode characters in a string
+
+unicode= u"\u00dcnic\u00f6de"
+
+# raw string
+# Raw string is created by prefixing a string literal with ‘r’ or ‘R’. Python raw string treats backslash (\) as a literal character. This is useful when we want to have a string that contains backslash and don’t want it to be treated as an escape character.
+
+raw = r"raw \n string!"
+
+# print(msg)
+# print(char)
+# print(multiline)
+# print(unicode)
+
 

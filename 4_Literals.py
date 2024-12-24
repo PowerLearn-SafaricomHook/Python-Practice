@@ -72,3 +72,14 @@ b = False + 10
 # Special literals
 # Python contains one special literal i.e. None. We use it to specify that the field has not been created.
 # It is used to define a null value, or no value at all.
+
+drink = "Available"
+food = None
+
+def new_menu(a):
+    if a == drink:
+        print(drink)
+    else:
+        print(food)
+
+# new_menu(drink)

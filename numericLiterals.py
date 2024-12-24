@@ -13,6 +13,9 @@ float_1 = 10.5
 float_2 = 1.5e2
 
 # Complex literals
+# Complex literals are written as a + bj.
+# Where a is the real part and b is the imaginary part.
+
 x = 3.14j
 
 print(a, b, c, d)

@@ -82,4 +82,5 @@ def new_menu(a):
     else:
         print(food)
 
-# new_menu(drink)
+new_menu(drink)
+

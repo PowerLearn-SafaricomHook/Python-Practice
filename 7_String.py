@@ -21,5 +21,9 @@ print(str)
 
 # multiline string
 
-new_str = """This is a multiline string with more than one line code."""
+new_str = """This is a multiline 
+string 
+with more 
+than 
+one line code."""
 print(new_str)

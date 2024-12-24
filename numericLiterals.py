@@ -46,9 +46,9 @@ unicode= u"\u00dcnic\u00f6de"
 
 raw = r"raw \n string!"
 
-# print(msg)
-# print(char)
-# print(multiline)
-# print(unicode)
+print(msg)
+print(char)
+print(multiline)
+print(unicode)
 
 

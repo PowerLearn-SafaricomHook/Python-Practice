@@ -22,3 +22,14 @@ print(math.sqrt(16))  # 4.0
 
 import sys
 print(sys.path)
+
+# You can add your own directories to the search path by setting the PYTHONPATH environment variable.
+# The PYTHONPATH variable has a value that is a string with a list of directories separated by the system path separator (os.pathsep).
+# On Windows, the default path separator is a semicolon (;), and on Unix, it is a colon (:).
+
+# For example, to add the directory /home/me/mypython to the search path, you can add the following line to your .bashrc file:
+
+# export PYTHONPATH="/home/me/mypython"
+
+# This will add the directory /home/me/mypython to the search path.
+

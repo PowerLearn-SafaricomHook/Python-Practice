@@ -14,3 +14,5 @@
 
 import math
 print(math.sqrt(16))  # 4.0
+
+# When the interpreter encounters an import statement, it imports the module if the module is present in the search path.

@@ -84,7 +84,7 @@ print("A") if a>b else print("B")
 
 # Example:
 
-x=41
+x=float(input("Enter a number: "))
 
 if x>10:
     print("Above ten,")

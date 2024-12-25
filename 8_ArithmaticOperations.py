@@ -53,6 +53,25 @@ div = num2 / num1
 print(div)  # 2.0
 
 # Modulus
+# The modulus operator % returns the remainder of the division of two numbers.
+
+# example:
+# find the remainder
+num1 = 5
+num2 = 10
+mod = num2 % num1
+print(mod)  # 0
+
+# Exponent
+# The exponent operator ** raises the first number to the power of the second number.
+
+# example:
+# find the exponent
+num1 = 5
+num2 = 10
+exp = num1 ** num2
+print(exp)  # 9765625
+
 
 
 

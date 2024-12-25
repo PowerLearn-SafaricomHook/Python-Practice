@@ -16,3 +16,5 @@ import math
 print(math.sqrt(16))  # 4.0
 
 # When the interpreter encounters an import statement, it imports the module if the module is present in the search path.
+# A search path is a list of directories that the interpreter searches before importing a module.
+# When you install Python, a directory is created containing standard modules and packages. This directory is added to the search path.

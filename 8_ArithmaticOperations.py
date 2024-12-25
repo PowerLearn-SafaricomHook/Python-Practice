@@ -72,6 +72,16 @@ num2 = 10
 exp = num1 ** num2
 print(exp)  # 9765625
 
+# Floor Division
+# The floor division operator // divides one number by another and returns the integer part of the result.
+
+# example:
+# divide two numbers and return the integer part
+num1 = 5
+num2 = 10
+floor_div = num2 // num1
+print(floor_div)  # 2
+
 
 
 

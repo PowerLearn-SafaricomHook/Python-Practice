@@ -46,5 +46,13 @@ print(mul)
 
 # example:
 
+# divide two numbers
+num1 = 5
+num2 = 10
+div = num2 / num1
+print(div)  # 2.0
+
+# Modulus
+
 
 

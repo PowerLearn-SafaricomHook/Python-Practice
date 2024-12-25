@@ -2,6 +2,8 @@
 # Comparison Operators in Python
 
 # Equal to
+
+# The equal to operator == compares two values and returns True if they are equal, and False if they are not.
 a = 5
 b = 5
 print(a == b)  # True

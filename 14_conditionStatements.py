@@ -21,6 +21,9 @@ if b>a:
 
 # The elif keyword is pythons way of saying "if the previous conditions were not true, then try this condition".
 
+# else
+# The else keyword catches anything which isn't caught by the preceding conditions.
+
 # Syntax:
 
 # if condition:
@@ -41,5 +44,29 @@ elif a==b:
     print("a and b are equal")
 else:
     print("a is greater than b")
+
+
+# Short Hand If
+
+# If you have only one statement to execute, you can put it on the same line as the if statement.
+
+# Syntax:
+# if condition: statement
+
+# Example:
+
+if a>b: print("a is greater than b")
+
+# Short Hand If ... Else
+
+# If you have only one statement to execute, one for if, and one for else, you can put it all on the same line:
+
+# Syntax:
+# statement if condition else statement
+
+# Example:
+
+print("A") if a>b else print("B")
+
 
 

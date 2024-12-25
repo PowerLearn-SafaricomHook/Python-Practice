@@ -69,4 +69,31 @@ if a>b: print("a is greater than b")
 print("A") if a>b else print("B")
 
 
+# Nested If
+
+# You can have if statements inside if statements, this is called nested if statements.
+
+# Syntax:
+# if condition:
+#     if condition:
+#         # block of statements
+#     else:
+#         # block of statements
+# else:
+#     # block of statements
+
+# Example:
+
+x=41
+
+if x>10:
+    print("Above ten,")
+    if x>20:
+        print("and also above 20!")
+    else:
+        print("but not above 20.")
+elif x==10:
+    print("x is equal to 10")
+else:
+    print("x is less than 10")
 

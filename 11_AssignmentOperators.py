@@ -43,7 +43,7 @@ x **= 3
 print("x **= 3 ->", x)  # Output: x **= 3 -> 0.0
 
 # Bitwise AND and assign
-
+# This operator performs a bitwise AND operation on the left and right operands and assigns the result to the left operand.
 x = 10
 x &= 7
 print("x &= 7 ->", x)  # Output: x &= 7 -> 2
@@ -63,3 +63,5 @@ print("x >>= 1 ->", x)  # Output: x >>= 1 -> 2
 # Bitwise left shift and assign
 x <<= 2
 print("x <<= 2 ->", x)  # Output: x <<= 2 -> 8
+
+
